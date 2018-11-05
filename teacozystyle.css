@@ -1,0 +1,113 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+/*Header format*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  }
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navigation a {
+  color: seashell;
+  text-decoration: underline;
+  margin-right: 20px;
+      }
+
+/* Hero Image - container, image and text properties.  */
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto;
+  align-items: center;
+  background-image: url(image/img-mission-background.jpg);
+  background-position: center;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  }
+
+/* Tea of the month properties*/
+.month-tea {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+/* A flex container expands items to fill available free space,
+or shrinks them to prevent overflow.*/
+.steeping {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  flex-wrap: wrap; /*sets the flex items (.steeping div) so that they can wrap onto multiple lines*/
+  justify-content: center;
+}
+
+/*Image and text container properties - Store items*/
+.steeping div {
+  display: block;
+  padding: 15px;
+
+}
+/*Image properties - Store items*/
+.steeping img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 1200px;
+  height: 500px;
+  background-image: url(image/img-locations-background.jpg);
+  background-position: center;
+
+}
+
+#locations h2 {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.location {
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin: 0 40px;
+  background-color: black;
+
+}
+
+.copy {
+text-align: left;
+margin-left: 20px;
+}
